@@ -1,0 +1,161 @@
+#container{
+  width:100%;
+  height:100%;
+
+}
+
+#header{
+    width:100%;
+    height:70px;
+    background-color:rgb(239, 245, 239);
+    
+}
+
+#footer{
+  width:100%;
+  height:40px;
+  background-color: rgb(133, 131, 131);
+}
+#content{
+  width:100%;
+  height:calc(100% - 110px);
+  background-color:rgb(219, 225, 213);
+}
+
+#header .logo{
+  position:relative;
+  width:40px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#header .title{
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20pt;
+  font-weight: bold;
+}
+#header .title span{
+color: skyblue;
+} 
+
+#header .signinlogo{
+  width: 20px;
+  position: relative;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#header .signintext{
+  position: relative;
+  float: right;
+  font-size: 15pt;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: forestgreen;
+  cursor: pointer;
+  
+  
+} 
+#header .signintext:hover, .signinlogo:hover + .signintext{
+  color:bisque;
+  text-decoration: underline;
+  
+
+}
+
+#footer .copyrightText
+{
+  font-size: 15px;
+  position: relative;
+  margin-left: 10px;
+  top: 15px;
+  color: rgb(29, 30, 30);
+
+}
+#footer .socialmedia
+{
+  position: relative;
+  width: 20px;
+  float: right;
+  margin-right: 10px;
+  top:-5px;
+  cursor: pointer;
+}
+
+#content .text1{
+  position: relative;
+  margin-left: 15px;
+  top:60px;
+  color:blueviolet;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+#content .text2
+{
+  position: relative;
+  margin-left: 15px;
+  top:80px;
+  color:blue;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 24pt;
+}
+#content .text3
+{
+  position: relative;
+  margin-left: 15px;
+  top:100px;
+  color:green;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20pt;
+}
+#content .searchBar{
+  position: relative;
+  width: 650px;
+  height: 40px;
+  background-color: white;
+  margin-left: 15px;
+  top: 120px;
+  border-radius: 5px;
+  padding: 3px;
+}
+#searchText{
+  width: 220px;
+  height: 40px;
+  background: url('/searchicon.png') no-repeat;
+  padding-left: 40px;
+  border: none;
+  background-size: 40px 30px;
+  font-size: 12pt;
+  background-position: 0px ,center;
+  border-right: 1px solid silver;
+}
+#searchlocation{
+    width: 220px;
+    height: 40px;
+    border: none;
+    font-size: 12pt;
+    background: url('/location.png') no-repeat;
+    background-size: 30px 20px;
+    padding-left: 40px;
+    background-position: 0px center;  
+}
+#SearchButton{
+  width: 110px;
+  height: 30px;
+  border: none;
+  top:5px;
+  color: white;
+  background-color: green;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
